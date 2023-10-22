@@ -1,0 +1,47 @@
+.section1 {
+    width: 100%;
+    padding: 50px 0;
+    background: #22343D;
+    text-align: center;
+
+    .section1_btn {
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background: #02897A;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1200px)  {
+    .section1{
+        padding: 50px 0;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    .section1{
+        padding: 50px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+    .section1{
+        padding: 50px 40px;
+    }
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+    .section1{
+        padding: 45px 30px;
+    }
+}
+
+@media (max-width: 447px) {
+    .section1{
+        padding: 45px 30px;
+    }
+}

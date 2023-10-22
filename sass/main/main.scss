@@ -1,0 +1,139 @@
+@import url(../nav/nav.css);
+@import url(../header/header.css);
+@import url(../section1/section1.css);
+@import url(../section2/section2.css);
+@import url(../section3/section3.css);
+@import url(../section4/section4.css);
+@import url(../footer/footer.css);
+
+@font-face {
+    font-family: Poppins;
+    src: url(../../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins500;
+    src: url(../../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins600;
+    src: url(../../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins700;
+    src: url(../../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: Inter700;
+    src: url(../../fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+body {
+    button{
+        cursor: pointer;
+    }
+    .global_info {
+        color: #FFF;
+        font-family: Poppins600;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .global_title {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins700;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .global_text {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins500;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .global_btn1:hover{
+        background: lightblue;
+    }
+    .global_btn1:active{
+        background: lightgray;
+    }
+    .global_btn2:hover{
+        background: #FFF;
+        color: #02897A;
+        border: 1px solid #02897A;
+    }
+    .global_btn2:active{
+        background: lightcyan;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    body {
+        .global_title {
+            font-size: 38px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+    body {
+        .global_title {
+            font-size: 34px;
+        }
+    }
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+    body {
+        .global_title {
+            font-size: 32px;
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    body {
+        .global_title {
+            font-size: 32px;
+        }
+    }
+}

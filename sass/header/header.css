@@ -1,0 +1,201 @@
+header .header_box_items, header .header_content {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background: #1F2E35;
+  padding: 50px 0 150px 0;
+}
+header .header_content {
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+header .header_content .header_content_box {
+  padding: 25px 0;
+  width: 320px;
+  text-align: center;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+header .header_content .header_content_box2 {
+  border-radius: 8px;
+  background: #02897A;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  padding: 25px 0;
+  width: 320px;
+  text-align: center;
+}
+header .header_content .header_box_info {
+  font-family: Poppins700;
+  font-size: 24px;
+  color: #22343D;
+  line-height: 166%;
+  text-align: center;
+}
+header .header_content .header_box_info2 {
+  font-family: Poppins700;
+  font-size: 24px;
+  color: #FFF;
+  line-height: 166%;
+  text-align: center;
+}
+header .header_content .header_box_text {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #22343D;
+  line-height: 250%;
+  text-align: center;
+}
+header .header_content .header_box_text2 {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #FFF;
+  line-height: 250%;
+  text-align: center;
+}
+header .header_content .header_list {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+header .header_content .header_box_link {
+  font-family: Inter;
+  font-size: 16px;
+  color: #22343D;
+  line-height: 137.5%;
+  letter-spacing: 0.2px;
+  margin: 0 auto;
+}
+header .header_content .header_box_link2 {
+  font-family: Inter;
+  font-size: 16px;
+  color: #FFF;
+  line-height: 137.5%;
+  letter-spacing: 0.2px;
+  margin: 0 auto;
+}
+header .header_content .header_btn1 {
+  margin-top: 50px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #02897A;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #FFF;
+}
+header .header_content .header_btn2 {
+  margin-top: 50px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #02897A;
+}
+header .header_box_items {
+  margin: 15px auto;
+  gap: 5px;
+  justify-content: center;
+}
+header .header_box_items .header_box_item1 {
+  font-family: Poppins700;
+  font-size: 76px;
+  color: #02897A;
+  text-align: center;
+  line-height: 131%;
+  letter-spacing: 0.2px;
+}
+header .header_box_items .header_box_item1_2 {
+  font-family: Poppins700;
+  font-size: 76px;
+  color: #FFF;
+  text-align: center;
+  line-height: 131%;
+  letter-spacing: 0.2px;
+}
+header .header_box_items .header_box_item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+header .header_box_items .item2_title {
+  font-family: Inter700;
+  font-size: 24px;
+  color: #02897A;
+  line-height: 125%;
+  letter-spacing: 0.1px;
+}
+header .header_box_items .item2_title2 {
+  font-family: Inter700;
+  font-size: 24px;
+  color: #FFF;
+  line-height: 125%;
+  letter-spacing: 0.1px;
+}
+header .header_box_items .item2_text {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #AFAFAF;
+  line-height: 118%;
+  letter-spacing: 0.1px;
+}
+header .header_box_items .item2_text2 {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #E0E0E0;
+  line-height: 118%;
+  letter-spacing: 0.1px;
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 50px 0 150px 0;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  header {
+    padding: 50px 50px 120px 50px;
+  }
+  header .header_content {
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+  header {
+    padding: 50px 40px 100px 40px;
+  }
+  header .header_content {
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  header {
+    padding: 50px 30px 100px 30px;
+  }
+  header .header_content {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 447px) {
+  header {
+    padding: 50px 30px 100px 30px;
+  }
+  header .header_content {
+    justify-content: center;
+    gap: 30px;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,103 @@
+.section4 {
+    width: 100%;
+    padding: 75px 0 150px 0;
+    background: #1F2E35;
+
+    .section4_content {
+        max-width: 968px;
+        margin: 0 auto;
+        border-radius: 32px;
+        background: #02897A;
+        padding: 12px 50px 0 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        .section4_content_box {
+            width: 450px;
+        }
+
+        .section4_box_title {
+            color: #FFF;
+            font-family: Poppins600;
+            font-size: 32px;
+            line-height: 151.4%;
+        }
+
+        .section4_btn {
+            border: none;
+            padding: 10px 32px;
+            border-radius: 8px;
+            background: #FFF;
+            color: #22343D;
+            font-family: Poppins600;
+            font-size: 20px;
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (min-width: 1200px)  {
+    .section4{
+        padding: 75px 0 150px 0;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    .section4{
+        padding: 75px 50px 150px 50px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+    .section4{
+        padding: 50px 40px 100px 40px;
+        .section4_content{
+            padding: 20px 40px 20px 40px;
+            gap: 10px;
+            img{
+                width: 350px;
+                height: 330px;
+            }
+        }
+    }
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+    .section4{
+        padding: 50px 30px 100px 30px;
+        .section4_content{
+            padding: 20px;
+            flex-wrap: wrap;
+            gap: 50px;
+            img{
+                width: 350px;
+                height: 330px;
+            }
+            .section4_content_box{
+                width: 330px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    .section4{
+        padding: 50px 20px 100px 20px;
+        .section4_content{
+            padding: 20px;
+            flex-wrap: wrap;
+            gap: 50px;
+            img{
+                width: 350px;
+                height: 330px;
+            }
+            .section4_content_box{
+                max-width: 330px;
+                text-align: center;
+            }
+        }
+    }
+}

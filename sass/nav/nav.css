@@ -1,0 +1,140 @@
+nav .nav_list, nav .nav_logo, nav .navbar {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 0;
+  background: #1F2E35;
+}
+nav .navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+nav .navbar .menu_bar {
+  font-size: 28px;
+  color: #fff;
+  display: none;
+}
+nav .navbar .navbar_icon {
+  cursor: pointer;
+}
+nav .nav_logo {
+  gap: 15px;
+  cursor: pointer;
+}
+nav .nav_logo .nav_logo_text {
+  font-family: Poppins700;
+  font-size: 30px;
+  color: #FFF;
+  line-height: 93.33%;
+}
+nav .nav_list {
+  gap: 25px;
+}
+nav .nav_list .nav_btn1 {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid #BCD0E5;
+  font-family: Poppins600;
+  font-size: 16px;
+  color: #FFF;
+  background: transparent;
+}
+nav .nav_list .nav_btn2 {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  background: #02897A;
+  font-family: Poppins600;
+  font-size: 16px;
+  color: #FFF;
+}
+nav ul {
+  gap: 20px;
+}
+nav ul a {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #FFF;
+  line-height: 175%;
+}
+
+@media (min-width: 1200px) {
+  nav {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  nav {
+    padding: 20px 50px;
+  }
+}
+@media (min-width: 870px) and (max-width: 990px) {
+  nav {
+    padding: 20px 40px;
+  }
+  nav .nav_logo .nav_logo_text {
+    font-size: 24px;
+  }
+  nav .nav_list {
+    gap: 15px;
+  }
+  nav .nav_list .nav_btn1 {
+    font-size: 15px;
+  }
+  nav .nav_list .nav_btn2 {
+    font-size: 15px;
+  }
+  nav ul {
+    gap: 15px;
+  }
+  nav ul a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 630px) and (max-width: 870px) {
+  nav {
+    padding: 20px 40px;
+  }
+  nav .navbar .menu_bar {
+    display: block;
+  }
+  nav .nav_logo .nav_logo_text {
+    font-size: 30px;
+  }
+  nav .nav_list {
+    display: none;
+  }
+}
+@media (min-width: 447px) and (max-width: 630px) {
+  nav {
+    padding: 20px 30px;
+  }
+  nav .navbar .menu_bar {
+    display: block;
+  }
+  nav .nav_logo .nav_logo_text {
+    font-size: 30px;
+  }
+  nav .nav_list {
+    display: none;
+  }
+}
+@media (max-width: 447px) {
+  nav {
+    padding: 17px 30px;
+  }
+  nav .navbar .menu_bar {
+    display: block;
+  }
+  nav .nav_logo .nav_logo_text {
+    font-size: 30px;
+  }
+  nav .nav_list {
+    display: none;
+  }
+}/*# sourceMappingURL=nav.css.map */
